@@ -4,3 +4,4 @@ function Sumar(){
     let resultado = num1 + num2;
     document.getElementById("txtResultado").innerHTML = 'Resultado: ' + resultado;
 }
+
