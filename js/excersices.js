@@ -29,16 +29,16 @@ function CalcularOperacion(){
 function CalcularIR(SalBruto){
     let SalBrutoAnual = SalBruto * 12;
     let IRAnual = 0;
-    if(SalBrutoAnual <=100000) IRAnual = 0;
-    else if(SalBrutoAnual >100000 && SalBrutoAnual <=200000) 
+    if(SalBrutoAnual <= 100000) IRAnual = 0;
+    else if(SalBrutoAnual > 100000 && SalBrutoAnual <= 200000) 
         IRAnual = (SalBrutoAnual - 100000) * 0.15;
-    else if(SalBrutoAnual >200000 && SalBrutoAnual <=350000)
+    else if(SalBrutoAnual > 200000 && SalBrutoAnual <= 350000)
         IRAnual = ((SalBrutoAnual - 200000) * 0.20) + 15000;
-    else if(SalBrutoAnual >350000 && SalBrutoAnual <=500000)
+    else if(SalBrutoAnual > 350000 && SalBrutoAnual <= 500000)
         IRAnual = ((SalBrutoAnual - 350000) * 0.25) + 45000;
     else 
         IRAnual = ((SalBrutoAnual - 500000) * 0.30) + 82500;
-    returnIRAnual /12;
+    return IRAnual /12;
 }
 
 function CalcularSalario(){
