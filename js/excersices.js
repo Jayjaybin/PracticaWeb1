@@ -25,3 +25,4 @@ function CalcularOperacion(){
         document.getElementById('txt2Result').innerHTML="La division es: "+(num1 /num2);
     }
 }
+
