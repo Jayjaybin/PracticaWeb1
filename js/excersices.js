@@ -38,7 +38,7 @@ function CalcularIR(SalBruto){
         IRAnual = ((SalBrutoAnual - 350000) * 0.25) + 45000;
     else 
         IRAnual = ((SalBrutoAnual - 500000) * 0.30) + 82500;
-    return IRAnual /12;
+    return IRAnual / 12;
 }
 
 function CalcularSalario(){
